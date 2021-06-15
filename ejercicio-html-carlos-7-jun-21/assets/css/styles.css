@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+}
+h1 {
+    color: royalblue;
+    text-align: center;
+}
+
+
+p{  font-size: 80px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration:underline red;
+    text-transform: lowercase;
+
+}
+
+div {
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    margin: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    background-image: url();
+}
+
+

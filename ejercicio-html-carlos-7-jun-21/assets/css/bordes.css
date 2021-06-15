@@ -1,0 +1,53 @@
+.caja{
+    width: 400px;
+    height: 400px;
+}
+
+.uno{
+    background-color: #fafa31;
+    margin-bottom: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.dos{
+    background-color: #22b822;
+    border-style: dotted;
+    border-bottom-right-radius: 20px;
+
+}
+
+.tres{
+    width: 400px;
+    height: 150px;
+    border-bottom-right-radius: 45%;
+    background-color: #000000;
+    margin-bottom: 40px;
+    
+}
+
+.cuatro{
+    width: 400px;
+    height: 150px;
+    border-bottom-right-radius: 20%;
+    background-color: #000000;
+    margin-bottom: 40px;
+}
+
+.cinco{
+
+}
+
+.seis{}
+
+.siete{}
+
+.ocho{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #000000;
+    margin-bottom: 40px;
+}

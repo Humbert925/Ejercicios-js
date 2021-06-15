@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8"/>
+        <title>Formularios y tablas</title>
+    </head>
+    <body>
+        <h1>Formularios y tablas</h1>
+
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Nombre</th>
+                <th>Masa [10^24 kg]</th>
+                <th>Diámetro [km]</th>
+                <th>Densidad [kg/m^3]</th>
+                <th>Gravedad [m/s^2]</th>
+                <th>Duración del día[h]</th>
+                <th colspan="">rowspan columna</th>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="4">Planetas terrestres</td>
+                <td>Mercurio</td>
+                <td>0,0330</td>
+                <td>4.879<td>
+                <td>5.427</td>
+                <td>3,7</td>
+                <td>4.222,6</td>
+            </tr>
+            <tr>
+                <td>Celda 5</td>
+                <td>Celda 6</td>
+                <td>Celda 7</td>
+                <td>Celda 8</td>
+            </tr>
+            <tr>
+                <td>Celda 1</td>
+                <td>Celda 2</td>
+                <td>Celda 3</td>
+                <td>Celda 4</td>
+            </tr>
+            <tr>
+                <td>Celda 5</td>
+                <td>Celda 6</td>
+                <td>Celda 7</td>
+                <td>Celda 8</td>
+            </tr>
+            <tr>
+                <td rowspan="4">uso para filas </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <!--
+        <form action="">
+            <h3>registrate (sin seguridad mueve el http a un sitio):</h3>
+            <p>
+                <label for="">Nombre:</label>
+                <input type="text" name="Nombre"/>
+            </p>
+            <p>
+                <label for="email">Correo electronico</label>
+                <input type="text" name="email"/> 
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="text" name="password" />
+
+            </p>
+                <input type="submit" value="Registrar"/>
+        </form>-->
+
+        <form method="POST">
+            <h3>registrate (Método get y post):</h3>
+            <p>
+                <label for="">Nombre:</label>
+                <input type="text" name="Nombre"/>
+            </p>
+            <p>
+                <label for="email">Correo electronico</label>
+                <input type="text" name="email"/> 
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" />
+            <p>
+                <select name="meses" id="">
+                    <option value="">Enero</option>
+                    <option value="">Febrero</option>
+                    <option value="">Març</option>
+                    <option value="">Maig</option>
+                    <option value="">Junio</option>
+                    <option value="">Julio</option>
+                    <option value="">Agosto</option>
+                    <option value="">Septembre</option>
+                    <option value="">Octubre</option>
+                    <option value="">Noviembre</option>
+                    <option value="">Decembre</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Registrar"/>
+            </p>
+
+            <p>
+                <label for="=cumpleanio">Cumpleaños</label>
+                <input type="date"></label>
+            </p>
+            <!--<input type="sumit" value= "registrar"/>-->
+            <button type="submit">Registrar</button>
+            <p>
+                <input type="checkbox"/>
+                <label for="">Opcion 1</label>
+            </p>
+
+            <p>
+                <input type="radio" name="color" value="rojo"/>
+                <label for="">Rojo</label>
+                <input type="radio" name="color" value="verde"/>
+                <label for="">verde</label>
+                <input type="radio" name="color" value="azul"/>
+                <label for="">azul</label>
+                <input type="radio" name="color" value="amarillo"/>
+                <label for="">amarillo</label>
+            </p>
+
+            <p>
+                <textarea name="muchotexto" id="" cols="30" rows="15"></textarea>
+            </p>
+
+            <p>
+                <label for="nombre">nombre</label>
+                <input type="mail" name="mail" placeholder="ejemplo@mail.com" required/>
+                <!--required es un comando con el que se vuelve obligatorio el llenado de un formulario-->
+            </p>
+
+
+        </form>
+    </body>
+</html>
